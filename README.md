@@ -6,6 +6,7 @@ I built a CRUD system and a CSV Generator with HTML, BOOTSTRAP, mySQL and PHP.
  
 ## Database Instructions:
  1.)Start the 'xampp'program  on your computer and make sure that the Apache Server and MySQL modules are started and running.
+ <br>
  2.)Enter 'localhost' in your browser's URL bar.
  3.)In localhost Select 'PhpMyAdmin' and log into your account if it's a new non-customized installation username should be 'root' and password would likely      be empty.
  4.)In PhpMyAdmin create a new database called 'users_db'.
