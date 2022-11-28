@@ -41,7 +41,8 @@ is a text/string input which in my personal opinion defeats the objective.
 
 Please go to the following directory path 'C:\xampp\php' on your local machine and open your 'php.ini' file with your text or code editor and then press 'ctrl + F' to open your document find/search box, enter 'max_execution_time' into the search box and click on 'Find Next' the default value is set to 120 secs please change this to 20000 secs in order to upload the output.csv file when testing as it takes a rather long time to insert 1,000,000 entries into the database.
  <br>
-Also change the following in the php.ini file by searching for 'memory_limit' and change it to 2048M for a faster import experience
+Also change the following in the php.ini file by searching for 'memory_limit' and change it to 4,096M
+ for a faster import experience
  <br>
 (I have added 100,000 entries for testing purposes but it is possible to upload millions of entries.
  <br>
