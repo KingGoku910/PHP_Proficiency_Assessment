@@ -96,7 +96,7 @@
                 $password = "";
 
                 $connection = mysqli_connect($databaseHost, $username, $password, $databaseName);
-                $sql = "SELECT * FROM csv_import";
+                $sql = "SELECT * FROM csv_import ORDER BY ID desc";
                 $result = $connection -> query($sql);
 
                 if (!$result) {
